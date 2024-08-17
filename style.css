@@ -1,0 +1,301 @@
+* {
+ margin: 0;
+ font-family: Arial, Helvetica, sans-serif;
+ border: border-box;
+ 
+}
+
+.navbar {
+    height: 99px;
+    width: 100%;
+}
+.height-section {
+    height: 95%;
+}
+.navbar-upper {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    background-color: #0F1111;
+    color: white;
+    align-items: center;
+    height: 60px;
+    width: 100%;
+    a
+}
+
+a
+.nav-logo {
+    /* height: 50px;
+    width: 113px;
+    margin: 1px;
+    padding: 1px 8px 0px 6px; */
+    
+}
+.logo {
+    background-image: url(amazon_logo.png);
+    background-size: cover; 
+    height: 50px;
+    width: 100px;
+    margin-top: -8px;
+    margin-left: -4px;
+    padding: 1px 8px 0px 6px;
+    
+}
+
+.border {
+    border: 1.5px solid transparent;
+    height: 95%;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+.border:hover {
+    border: 1.5px solid white;
+    height: 95%;
+    justify-content: center;
+    align-content: center;
+}
+
+.nav-search {
+    display: flex;
+    width: 351.33px;
+    height: 60px;
+    justify-content: center;
+    height: 38px;
+    /* width: 248.23px; */
+    padding: 7px 10px 10px 0px;
+    /* flex-grow: calc(2); */
+    
+    
+}
+
+.select {
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    background-color: none;
+    /* flex-grow: calc(11.5px); */
+
+}
+.search-input {
+    height: 40px;
+}
+
+.search-icon {
+    background-color: #febd69;
+    color: #333333;
+    align-content: center;
+    height: 38px;
+    width: 75%;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border: none;
+}
+.search-select {
+    background-color: #e6e6e6;
+}
+
+.account {
+    display: flex;
+    flex-direction: column;
+    background-color: transparent;
+    height: 95%;
+    align-items: flex-start; 
+        
+}
+.cart {
+    margin-right: 15px;
+}
+
+.navbar-lower {
+    background-color: #232f3e;
+    height: 39px;
+    width: 100%;
+    display: flex;
+    font-size: 14px;
+    color: azure;
+    align-items: center;
+    justify-content: flex-start
+   
+    
+}
+.menu-bar {
+    display: flex;
+    font-weight: bold;
+    margin-left: 4px;
+}
+.margin-1 {
+    margin: 8px;
+}
+
+.hero-image {
+    background-image: url(hero_image.jpg); 
+    background-size: cover; /* Ensure the image covers the container */
+    background-repeat: no-repeat;
+    background-position: center; /* Center the image */
+    height: 600px; /* Set a fixed height for the hero section */
+    width: 100%;
+    display: flex;
+    justify-content: center; /* Center products horizontally */
+    position: relative; /* Make the hero image the reference point for absolute positioning */
+    overflow: visible;
+}
+
+/* Positioning the product elements over the hero image */
+.product1, .product2, .product3 {
+    background-color: white;
+    height: 400px;
+    width: 27%;
+    position: absolute; /* Allows them to be positioned over the hero image */
+    top: 300px; /* Adjust this value to move the products down or up as needed */
+    z-index: 10; /* Ensure the products appear above the hero image */
+    padding-top: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 20px;
+    border: 0.5px solid black;
+}
+
+
+.product1 {
+    left: 5%; 
+}
+/* .product2 {
+    left: 35%; 
+} */
+.product3 {
+    right: 5%; 
+}
+
+
+.footer-all {
+    background-color: aqua;
+    height: 1150px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.back-to-top {
+    height: 50px;
+    width: 100%;
+    background-color: #37475a;
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center; /* Optional: In case you add more text or want to ensure center alignment */
+}
+.imp-links {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-grow: 1;
+    background-color: #232f3e;
+    width: 100%;
+
+}
+
+.lastlogo {
+    display: flex;
+    height: 100px;
+    width: 100%;
+    background-color: #232f3e;
+    margin-top: auto;
+    color: #e6e6e6;
+    /* border: 5px solid white; */
+    justify-content: center;
+    align-items: center;
+    margin-top: auto; 
+    border-top: 1px solid #3a4553;
+    
+}
+
+
+.link-section {
+    background-color: #131a22;
+    color: #999999;
+    width: 100%;
+    height: 40%;
+    display: flex;
+    justify-content: flex-start;
+    font-size: 12px;
+    /* text-align: start;
+    bottom: 500px; */
+    /* margin-top: auto; */
+    
+}
+
+
+
+
+
+
+
+
+.copywrite-section {
+    background-color: #131a22;
+    height: 78px;
+    width: 100%;
+    font-size: 12px;
+    color: #FFFFFF;
+    text-align: center;
+    align-content: center;
+    /* margin-top: auto; */
+    
+
+
+
+}
+
+#link {
+    color: #999999;
+    text-decoration: none;
+}
+
+.site-body {
+    height: 1125px;
+    background-color: #e3e6e6;
+    width: 100%;
+    display: flex;
+    
+}
+.productbox {
+    background-color: white;
+    width: 90%;
+    height: 300px;
+    position: absolute;
+    bottom: -500px;
+    display: flex;
+    flex-direction: column; /* Changed to column to stack the heading and images */
+    justify-content: center; /* Center align the content vertically */
+    align-items: center;
+    padding: 20px 10px; /* Added padding to control space on top and sides */
+}
+
+.product-heading {
+    font-size: 21px;
+    font-weight: bolder;
+    margin-bottom: 40px; /* Space between heading and images */
+    /* border: 1px solid black; */
+    transform: translateX(-250px);
+}
+
+.product-images {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 20px; /* Adjust space to move images slightly below */
+}
+
+.product-images div {
+    margin: 0 10px; /* Space between each image */
+}
+
+.product-images img {
+    max-width: 100%; /* Ensures images do not overflow their container */
+    height: auto;
+}
+.pic:hover {
+    border: 1px solid black;
+}
